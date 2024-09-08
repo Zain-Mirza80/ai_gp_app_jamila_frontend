@@ -1,0 +1,61 @@
+/* General body styles */
+body {
+  font-family: 'Arial', sans-serif; /* NHS uses Arial, which is simple and professional */
+  margin: 0;
+  padding: 0;
+  background: #f0f3f4; /* Light grey background similar to NHS color scheme */
+  color: #005eb8; /* NHS Blue for text */
+}
+
+/* Header styling */
+header {
+  background-color: #005eb8; /* NHS Blue */
+  color: white;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+header nav {
+  display: flex;
+}
+
+header nav a {
+  color: white; /* Ensuring text color is white */
+  text-decoration: none;
+  margin-left: 20px;
+  padding: 0.5rem;
+  border-radius: 5px;
+  font-weight: bold;
+  background-color: transparent; /* Making background transparent or a mild color */
+}
+
+header nav a:hover {
+  background-color: #003087; /* Darker NHS blue for hover state */
+  color: white; /* Keep color white on hover */
+}
+
+/* Content styling */
+.content {
+  padding: 20px;
+  text-align: center;
+}
+
+/* Chat container styling */
+.chat-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh; /* Full height of the viewport */
+  background-color: #fff; /* White background for the chat app */
+}
+
+h1, h2, p {
+  margin: 10px 0;
+}

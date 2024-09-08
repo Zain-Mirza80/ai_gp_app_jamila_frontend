@@ -1,0 +1,7 @@
+ENSURE DOCKER DESKTOP APP IS RUNNING
+cd path/to/your/project/frontend
+docker build -t gcr.io/smart-med-connect/smart-med-connect .
+docker push gcr.io/smart-med-connect/smart-med-connect
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
+gcloud run deploy --image gcr.io/smart-med-connect/smart-med-connect --platform managed --region europe-west1
+smart-med-connect

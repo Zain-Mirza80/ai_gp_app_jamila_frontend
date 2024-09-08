@@ -1,0 +1,44 @@
+.input-container {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: #f4f4f4; /* Light grey background */
+}
+
+.message-input {
+  flex-grow: 1; /* Makes the input field grow to use available space */
+  padding: 10px;
+  margin-right: 10px; /* Space between input field and buttons */
+  border: 2px solid #ddd; /* Light border for the input field */
+  border-radius: 5px;
+  outline: none; /* Removes the default focus outline */
+}
+
+.send-button, .mic-button, .save-chat-button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.send-button {
+  background-color: #007bff; /* Bootstrap blue */
+  color: white;
+}
+
+.mic-button {
+  background-color: #28a745; /* Bootstrap green */
+  color: white;
+  margin-left: 5px;
+}
+
+.save-chat-button {
+  background-color: #FF0000; /* Bootstrap yellow */
+  color: white;
+  margin-left: 5px;
+}
+
+.send-button:hover, .mic-button:hover, .save-chat-button:hover {
+  opacity: 0.8;
+}

@@ -1,0 +1,7 @@
+.message-list {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  overflow-y: auto; /* Allows scrolling */
+  max-height: 600px; /* Adjust based on your layout */
+}
